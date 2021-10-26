@@ -16,26 +16,89 @@
 .a-right {
     flex: 1;
 }
+
+/* 
 .a-card.bg {
    /* position: absolute; */
-   top: 50px;
+   /* top: 50px;
    left: 50px;
    background-color:blue;
-   z-index: 1;
-}
+   z-index: 1; */
+
 
 .a-card {
     width: 60%;
     height: 70vh;
-    border-radius: 30px;
-    position:relative;
-    overflow: hidden;
-     top: 50px;
-   left: 50px;
+    /* position:relative; */
+    top: 50px;
+    /* left: 10px; */
 }
 
 .a-img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.a-Cone {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.a-Pill {
+    width: 32px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.a-Sphere {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.a-title {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.a-sub {
+    font-weight: 600;
+    margin-right: 3em;
+}
+
+.a-desc {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 3em;
+    font-style: italic;
+}
+
+.a-award {
+    margin-top: 10px;
+    align-items: center;
+    justify-self: center;
+}
+
+.a-award-texts {
+    width: 70%;
+}
+
+.a-award-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+.a-award-sub {
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    padding: 5px;
 }
