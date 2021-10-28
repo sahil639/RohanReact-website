@@ -1,5 +1,5 @@
 import "./About.css";
-import rohan from "../../img/rohansies.jpeg";
+import rohan from "../../img/rohansies.png";
 import Cone from "../../img/Cone.png";
 import Pill from "../../img/Pill.png";
 import Sphere from "../../img/Sphere.png";

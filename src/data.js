@@ -21,12 +21,12 @@ export const products = [
     },
     {
         id:5,
-        img: "https://cdn.dribbble.com/users/61921/screenshots/15956057/media/44057596895135f96ffb6dc6dcacc156.png?compress=1&resize=400x300",
+        img: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/65d453120734639.60b78e081016d.jpg",
         link: 'http://lama.dev'
     },
     {
         id:6,
-        img: "https://cdn.dribbble.com/users/61921/screenshots/15956057/media/44057596895135f96ffb6dc6dcacc156.png?compress=1&resize=400x300",
+        img: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/cbdb6b126991071.6154832d58d04.jpg",
         link: 'http://lama.dev'
     },
 
