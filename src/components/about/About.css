@@ -86,19 +86,35 @@
     justify-self: center;
 }
 
+.award-cards {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-template-rows: 1fr;
+}
 .a-award-texts {
     width: 70%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background: #F0F3FF;
+     box-shadow: 0px 76px 188px rgba(4, 29, 243, 0.07),
+       0px 31.751px 78.5419px rgba(4, 29, 243, 0.0465889),
+       0px 16.9756px 41.9923px rgba(4, 29, 243, 0.0376657), 
+       0px 9.51638px 23.5405px rgba(4, 29, 243, 0.0313484), 
+       0px 5.05408px 12.5022px rgba(4, 29, 243, 0.0249452), 
+       0px 2.10311px 5.20244px rgba(4, 29, 243, 0.0161645);
+    /* width: 70%; */
 }
 
 .a-award-title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
-    color: #555;
+    color: rgb(35, 0, 133);
 }
 
 .a-award-sub {
-    font-weight: 600;
-    color: rgb(100, 100, 100);
+    font-weight: 700;
+    color: rgb(101, 84, 119);
     padding: 5px;
 }

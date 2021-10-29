@@ -1,4 +1,115 @@
 .c {
     height: 100vh;
+    position: relative;
     background-color:rgb(240, 243, 255);
 }
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: greenyellow;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+    line-height: 60px;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 900;
+    width: 70%;
+}
+
+.c-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.c-desc {
+    font-weight: 600;
+    font-size: 24px;   
+}
+
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid blue;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(240, 243, 255)
+}
+
+input .placeholder {
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color:rgb(240, 243, 255);
+    outline: 2px solid blue;
+}
+
+button {
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: blue;
+    background-color: rgb(240, 243, 255);;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 20, 204, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: 2px solid blue;
+    padding: 10px;
+    }
+  
+  button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    outline:none;
+    transform: translateY(-7px);
+  }

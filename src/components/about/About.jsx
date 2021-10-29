@@ -23,20 +23,29 @@ const About = () => {
                    a, reprehenderit rem.
               </p>
               <p className="a-desc">
-                 "Let every fart count as a peal of thunder for liberty. Let every fart remind the nation of how much it has let pass out of its control. It is a small gesture, but one that can be very effective - especially in a large crowd. So fart, and if you must, fart often. But always fart without apology. Fart for freedom, fart for liberty - and fart proudly."
+                 "Horse sense is the thing a horse has which keeps it from betting on people."
               </p>
             <div className="a-award">
               <img src={Cone} alt="" className="a-Cone" />
               <img src={Pill} alt="" className="a-Pill" />
               <img src={Sphere} alt="" className="a-Sphere" />
+            </div>
+            <div className="award-cards">
+            <div className="a-award-texts">
+                  <h4 className="a-award-title">INERNATIONAL PANGYA</h4>
+                  <p className="a-award-sub">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Alias voluptatibus aliquid commodi doloribus.
+                  </p>
+              </div>
               <div className="a-award-texts">
                   <h4 className="a-award-title">INERNATIONAL PANGYA</h4>
                   <p className="a-award-sub">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                       Alias voluptatibus aliquid commodi doloribus exercitationem, 
-                       vitae a quidem harum eum omnis assumenda ea magni? Molestias?
+                       
                   </p>
               </div>
+              
             </div>
            </div>
         </div>
