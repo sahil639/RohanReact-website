@@ -21,15 +21,6 @@ const Intro = () => {
                   <div className="i-desc">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente, ut optio excepturi. Culpa, nemo?
                       lit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente.
-                  </div><div className="i-desc">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente, ut optio excepturi. Culpa, nemo?
-                      lit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente.
-                  </div><div className="i-desc">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente, ut optio excepturi. Culpa, nemo?
-                      lit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente.
-                  </div><div className="i-desc">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente, ut optio excepturi. Culpa, nemo?
-                      lit. Deserunt, nesciunt! Rerum, dolorem inventore! Deserunt in qui reiciendis hic sapiente.
                   </div>
                  <div className="i-button">
                  <button class="button">Know more</button>
