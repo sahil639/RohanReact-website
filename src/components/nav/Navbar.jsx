@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div style={{backgroundColor: darkMode && "#242424"}}  className="container">
           <ul class="nav">
-            <li><a style={{color: darkMode && "white"}} href="/">Home</a></li>
+            <li><a style={{color: darkMode && "white"}} href="/about">Home</a></li>
             <li><a style={{color: darkMode && "white"}} href="/about/">About</a></li>
             <li><a style={{color: darkMode && "white"}} href="/work/">Work</a></li>
             <li><a style={{color: darkMode && "white"}} href="/clients/">Clients</a></li>
