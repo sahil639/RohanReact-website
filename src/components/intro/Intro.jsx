@@ -16,12 +16,12 @@ const Intro = () => {
                   <h1 className="i-name">Rohan More</h1> 
                   <div className="i-title">
                       <div className="i-title-wrapper">
-                         <div className="i-title-item">Web Developer</div>
-                         <div className="i-title-item">Python Programmer</div> 
-                         <div className="i-title-item">Gamer</div> 
-                         <div className="i-title-item">Problem Solver</div> 
-                         <div className="i-title-item">Public Speaker</div> 
-                         <div className="i-title-item">Machine Learning Engineer</div> 
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Web Developer</div>
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Python Programmer</div> 
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Gamer</div> 
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Problem Solver</div> 
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Public Speaker</div> 
+                         <div style={{color: darkMode && "#5eff00"}} className="i-title-item">Machine Learning Engineer</div> 
                       </div>
                   </div>
                   <div className="i-desc">
