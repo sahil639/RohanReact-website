@@ -1,9 +1,15 @@
 import "./intro.css";
 import Me from "../../img/rohan.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
+
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+    
     return (
-        <div className="i">
+        <div style={{backgroundColor: darkMode && "#242424"}} className="i">
             <div className="i-left">
               <div className="i-left-wrapper">
                   <h2 className="i-intro">Hello, My name is</h2>

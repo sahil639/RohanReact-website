@@ -1,10 +1,16 @@
 import "./prodcutList.css";
 import Product  from "../product/Product"
 import {products} from "../../data"
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const ProductList = () => {
+
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+    
     return (
-        <div className="pl">
+        <div style={{backgroundColor: darkMode && "#242424"}} className="pl">
             <div className="pl-texts">
                 <h1 className="pl-title">Creating & Leading</h1>
                 <p className="pl-desc">
