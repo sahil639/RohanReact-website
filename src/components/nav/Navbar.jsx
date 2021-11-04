@@ -10,8 +10,7 @@ const Navbar = () => {
           <ul class="nav">
             <li><a style={{color: darkMode && "white"}} href="/about">Home</a></li>
             <li><a style={{color: darkMode && "white"}} href="/about/">About</a></li>
-            <li><a style={{color: darkMode && "white"}} href="/work/">Work</a></li>
-            <li><a style={{color: darkMode && "white"}} href="/clients/">Clients</a></li>
+            <li><a style={{color: darkMode && "white"}} href="/work/">Projects</a></li>
             <li><a style={{color: darkMode && "white"}} href="/contact/">Contact</a></li>
           </ul>
         </div>
